@@ -54,6 +54,17 @@ abstract class AbstractFile
     }
 
     /**
+     * @param string $path
+     *
+     * @return bool|int
+     */
+    public function convertAndSaveToS3($path)
+    {
+        return \Storage::disk('s3')->put($path, $this->convert());
+    }
+
+
+    /**
      * @return string
      */
     public function getData() : string
