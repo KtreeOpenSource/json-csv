@@ -1,5 +1,5 @@
 {
-    "name": "ozdemirburak/json-csv",
+    "name": "ktree/json-csv",
     "description": "JSON to CSV and CSV to JSON converters in PHP.",
     "keywords": ["json", "csv", "json to csv", "csv to json", "json2csv", "csv2json"],
     "homepage": "https://github.com/ozdemirburak/json-csv",
